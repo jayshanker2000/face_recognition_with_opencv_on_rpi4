@@ -1,5 +1,9 @@
 import cv2
 
+# For diiferent types of classifiers.
+# Ensure that the files are downloaded form official repository of github &
+# are in the same folder as that of the .py file.
+
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 smile_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
@@ -18,7 +22,7 @@ while True:
 		roi_color = img[y:y+h, x:x+w]
 
 		eyes = eye_cascade.detectMultiScale(roi_gray)
-		smiles = smile_cascade.detectMultiScale(roi_gray, 1.3, 15) 
+		smiles = smile_cascade.detectMultiScale(roi_gray, 1.3, 5) 
 
 		for (ex,ey,ew,eh) in eyes:
 			cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,127,255),2)
