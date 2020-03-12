@@ -9,7 +9,7 @@ Password : ```raspberry```
 *If there is an error :* ```ssh-keygen -R raspberrypi.local```
 
 * **Internet Connectivity** : ```ping www.google.com```  
-If there is Error : go to Netork and Sharing Center > Ethernet > Disable and then Enable sharing.
+If there is Error : go to ```Netork and Sharing Center``` > ```Ethernet``` > ```Disable and then Enable sharing```
 
 * **Expand Filesystem** : ```sudo raspi-config``` > ```Advanced Options``` > ```A1 expand filesystem```  
 
