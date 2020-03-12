@@ -12,4 +12,4 @@ If there is Error : go to Netork and Sharing Center > Ethernet > Disable and the
 
 * ```sudo apt update && sudo apt upgrade```
 ```sudo apt install realvnc-vnc-server realvnc-vnc-viewer
-sudo reboot```
+```sudo reboot```
