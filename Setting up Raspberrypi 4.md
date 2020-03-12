@@ -11,7 +11,7 @@ Password : ```raspberry```
 * **Internet Connectivity** : ```ping www.google.com```  
 If there is Error : go to Netork and Sharing Center > Ethernet > Disable and then Enable sharing.
 
-* **Expand Filesystem** : ```sudo raspi-config``` > Advanced Options > A1 expand filesystem  
+* **Expand Filesystem** : ```sudo raspi-config``` > ```Advanced Options``` > ```A1 expand filesystem```  
 
 ```sudo apt update && sudo apt upgrade```  
 ```sudo apt install realvnc-vnc-server realvnc-vnc-viewer```  
