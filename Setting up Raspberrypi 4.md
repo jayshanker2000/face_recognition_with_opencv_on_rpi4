@@ -12,6 +12,7 @@ Password : ```raspberry```
 If there is Error : go to Netork and Sharing Center > Wi-fi > Disable and then Enable sharing
 
 * **Expand Filesystem** : ```sudo raspi-config``` > Advanced Options > A1 expand filesystem  
+```sudo reboot```
 
 ```sudo apt update && sudo apt upgrade```  
 ```sudo apt install realvnc-vnc-server realvnc-vnc-viewer```  
