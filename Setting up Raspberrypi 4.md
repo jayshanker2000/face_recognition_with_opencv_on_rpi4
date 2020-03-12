@@ -10,7 +10,7 @@ Boot your pi in headless mode.
 * **Internet Connectivity** : ```ping www.google.com```
 If there is Error : go to Netork and Sharing Center > Ethernet > Disable and then Enable sharing.
 
-* ```sudo apt update && sudo apt upgrade```
+```sudo apt update && sudo apt upgrade```
 
 ```sudo apt install realvnc-vnc-server realvnc-vnc-viewer```
 
